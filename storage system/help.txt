@@ -1,0 +1,88 @@
+If you want to use our system, first, you need to download sqlite-jdbc-3.19.3.jar under the "src" and successfully install to
+the External Libraries in order to connect to the DataBase. The database file is under the root file called test.sqlite
+which could be accessed by the FireFox sqlite manager.
+---------------------------------------------------------------------------------
+Receiver:
+
+First you need to follow the screen to select a function you wanna use,
+if you wanna scan in, you need to type the good information. Then if you wanna keep typing you can
+just type. If you wanna use other function, just follow the instruction on the screen.
+Function:
+Scan in
+View price history
+Refill goods
+View orders.
+View price.
+View threshold.
+View location.
+View cost.
+---------------------------------------------------------------------------------
+Reshelver:
+
+If you wanna use any function just type the number, then follow the instruction.
+Function:
+View product history.
+View all orders.
+View quantity of a good.
+View product location.
+Change good location.
+---------------------------------------------------------------------------------
+Manager:
+If you wanna use any function just type the number, then follow the instruction.
+Function:
+View sale volume on a date of all good.
+View sale volume on a date of a single good.
+View orders.
+View sale history table.
+Set price of a good.
+View daily total revenue.
+View daily total profit.
+---------------------------------------------------------------------------------
+Cashier:
+If you wanna use any function just type the number, then follow the instruction.
+Function:
+Scan out.
+Check all goods on sale time.
+---------------------------------------------------------------------------------
+Administrator(userName: admin | accessCode: 123):
+
+If you wanna use any function just type the number, then follow the instruction.
+Function:
+View employee list.
+View on sale time.
+View price history.
+View sale history.
+View all goods section.
+---------------------------------------------------------------------------------
+Sample Goods:
+Good(1): upc: 123456789001
+         name: Banana
+         quantity: 1000
+         price: 10
+         location: Shelf(A)
+         cost: 5
+         threshold: 500
+         Store_Name: Food
+Good(2): upc: 123456789002
+         name: Fish
+         quantity: 2000
+         price: 100
+         location: Shelf(Z)
+         cost: 50
+         threshold: 1000
+         Store_Name: Food
+Good(3): upc: 123456789003
+         name: Iphone
+         quantity: 10000
+         price: 1000
+         location: Shelf(B)
+         cost: 50
+         threshold: 5000
+         Store_Name: Phone
+
+
+If it shows you that if you wanna get something and something, remember to add a space between two
+things you typed. If you are in a function, ** after typing the things it required,
+you can keep typing it in the same format till you wanna exit. Please do follow the format, and do
+not typing things randomly.
+We will improve our product in our next edition.

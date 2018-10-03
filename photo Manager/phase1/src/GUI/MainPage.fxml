@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TabPane fx:id="photoPlane" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE"
+         xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.MainPage">
+    <tabs>
+        <Tab fx:id="loadPhoto" onSelectionChanged="#loadPhotoAction" text="Load Photo">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="363.0" prefWidth="597.0">
+                    <children>
+                        <ImageView fx:id="imageView" fitHeight="267.0" fitWidth="276.0" layoutX="312.0" layoutY="34.0"
+                                   pickOnBounds="true" preserveRatio="true"/>
+                        <MenuBar prefWidth="600.0">
+                            <menus>
+                                <Menu mnemonicParsing="false" text="Help">
+                                    <items>
+                                        <MenuItem fx:id="loadHelpBtn" mnemonicParsing="false" onAction="#helpBtnAction"
+                                                  text="About"/>
+                                    </items>
+                                </Menu>
+                            </menus>
+                        </MenuBar>
+                        <Button fx:id="removeBtn" layoutX="20.0" layoutY="333.0" mnemonicParsing="false"
+                                onAction="#removeBtnAction" prefHeight="34.0" prefWidth="280.0" text="Remove"/>
+                        <Button fx:id="loadBtn" layoutX="441.0" layoutY="332.0" mnemonicParsing="false"
+                                onAction="#loadBtnAction" prefHeight="36.0" prefWidth="130.0" text="Load"/>
+                        <TableView fx:id="photoTab" layoutX="14.0" layoutY="75.0" onMouseClicked="#photoTabClicked"
+                                   prefHeight="252.0" prefWidth="288.0">
+                            <columns>
+                                <TableColumn fx:id="fileNameCol" prefWidth="144.0" text="Name"/>
+                                <TableColumn fx:id="locationCol" prefWidth="143.0" text="Path"/>
+                            </columns>
+                        </TableView>
+                        <Button fx:id="chooseBtn" layoutX="14.0" layoutY="27.0" mnemonicParsing="false"
+                                onAction="#chooseBtnAction" prefHeight="44.0" prefWidth="81.0"
+                                text="Choose &#10;Directory"/>
+                        <Label fx:id="directLab" layoutX="101.0" layoutY="39.0" prefHeight="22.0" prefWidth="202.0"/>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+        <Tab fx:id="viewPhoto" onSelectionChanged="#clickedViewTab" text="View Photo">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <MenuBar layoutY="-1.0" prefHeight="25.0" prefWidth="600.0">
+                            <menus>
+                                <Menu mnemonicParsing="false" text="Help">
+                                    <items>
+                                        <MenuItem fx:id="viewHelpBtn" mnemonicParsing="false" onAction="#helpBtnAction"
+                                                  text="About"/>
+                                    </items>
+                                </Menu>
+                            </menus>
+                        </MenuBar>
+                        <Button fx:id="newTagBtn" layoutX="14.0" layoutY="337.0" mnemonicParsing="false"
+                                onAction="#newTagBtnAction" prefHeight="24.0" prefWidth="89.0" text="New Tag"/>
+                        <Button fx:id="removeEntireTag" layoutX="108.0" layoutY="337.0" mnemonicParsing="false"
+                                onAction="#removeTagBtnAction" prefHeight="25.0" prefWidth="87.0" text="Remove Tag"/>
+                        <Label layoutX="15.0" layoutY="167.0" text="Available Tags:">
+                            <font>
+                                <Font size="14.0"/>
+                            </font>
+                        </Label>
+                        <Button fx:id="addTag" layoutX="386.0" layoutY="296.0" mnemonicParsing="false"
+                                onAction="#addTagToPhoto" prefHeight="30.0" prefWidth="202.0"
+                                text="Add Tag to Selected Photo"/>
+                        <ListView fx:id="avaTagListView" layoutX="15.0" layoutY="186.0" prefHeight="145.0"
+                                  prefWidth="181.0"/>
+                        <TableView fx:id="photoTagTable" layoutX="216.0" layoutY="65.0"
+                                   onMouseClicked="#clickedPhotoTagTable" prefHeight="224.0" prefWidth="369.0">
+                            <columns>
+                                <TableColumn fx:id="photoNameCol" prefWidth="160.0" text="Name"/>
+                                <TableColumn fx:id="tagsInTableCol" minWidth="0.0" prefWidth="213.0" text="Tags"/>
+                            </columns>
+                        </TableView>
+                        <Button fx:id="removeTagFromPhoto" layoutX="385.0" layoutY="332.0" mnemonicParsing="false"
+                                onAction="#setRemoveTagFromPhoto" prefHeight="30.0" prefWidth="203.0"
+                                text="Remove Tag From Selected Photo"/>
+                        <Button fx:id="movePhoto" layoutX="216.0" layoutY="335.0" mnemonicParsing="false"
+                                onAction="#movePhoto" prefHeight="27.0" prefWidth="160.0" text="Move Photo"/>
+                        <ImageView fx:id="displayPhoto" fitHeight="141.0" fitWidth="197.0" layoutX="11.0" layoutY="29.0"
+                                   pickOnBounds="true" preserveRatio="true"/>
+                        <Button fx:id="viewTagHistory" layoutX="216.0" layoutY="297.0" mnemonicParsing="false"
+                                onAction="#clickViewHistory" prefHeight="30.0" prefWidth="159.0" text="View History"/>
+                        <ComboBox fx:id="tagChoiceBox" layoutX="216.0" layoutY="35.0" onAction="#viewImageBtnAction"
+                                  prefHeight="25.0" prefWidth="364.0"/>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>

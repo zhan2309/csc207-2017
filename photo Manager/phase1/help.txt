@@ -1,0 +1,5 @@
+cd group_0464/phase1/src
+
+javac */*.java
+
+java GUI.Control

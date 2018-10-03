@@ -1,0 +1,29 @@
+Duties List:
+
+Member One:
+Student Name: Yu Feng Gan
+utorid: ganyu1
+Duty: In charge of Config part of the program, created and implemented config related files "PropertiesStorage" and
+"ReadConfig" for config to run properly. Designed and implemented methods in the View Page Tab in GUI.
+Implemented the instruction part of ReadMe.txt and added a Menu Bar to display it.
+
+Member Two:
+Student Name: Jin Cheng He
+utorid: hejinche
+Duty: Design and Implement Load Page Tab of the GUI. Helped team to debug and fix errors in the program. Write
+methods within the PhotoManager and TagObserver. Also changed various methods to reduce the run time and code
+smell of the program
+
+Member Three:
+Student Name: Xia Wei Zhang
+utorid: zhan2309
+Duty: Decide using the design pattern "MVC" and "Observer" in this project. Implemented DataBase part of the program.
+Create and implemented "DataBaseConnection", " DataBaseDownload" , "DataBaseUpdater" and also create the related
+class "PhotoManager" and "Photo" in the Controller Package. Help group to fix code smell and optimized program
+structure in the later stage.
+
+Member Four:
+Student Name: Jiyuan Cheng
+utorid: chengj63
+Duty: Design and Implement Photo and PhotoManager in the Controller package, implement logging system, writing help.txt
+and draw UML, also fix some code smell.

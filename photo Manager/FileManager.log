@@ -1,0 +1,110 @@
+Dec 06, 2017 6:38:02 PM controller.managers.FileManager addNewTag
+INFO: The Tag: @123 has been created
+Dec 06, 2017 6:38:16 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: cashier.png
+Dec 06, 2017 6:38:16 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: house.png
+Dec 06, 2017 6:38:16 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: man.jpg
+Dec 06, 2017 6:38:16 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: myRoom1.jpg
+Dec 06, 2017 6:38:16 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: myRoom2.jpg
+Dec 06, 2017 6:38:16 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: view1.jpeg
+Dec 06, 2017 6:38:16 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: view2.jpeg
+Dec 06, 2017 6:38:16 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: view3.jpeg
+Dec 06, 2017 6:38:24 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @123has been deleted from the ControlFile: cashier.png
+Dec 06, 2017 6:38:24 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @123has been deleted from the ControlFile: house.png
+Dec 06, 2017 6:38:24 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @123has been deleted from the ControlFile: man.jpg
+Dec 06, 2017 6:38:24 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @123has been deleted from the ControlFile: myRoom1.jpg
+Dec 06, 2017 6:38:24 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @123has been deleted from the ControlFile: myRoom2.jpg
+Dec 06, 2017 6:38:24 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @123has been deleted from the ControlFile: view1.jpeg
+Dec 06, 2017 6:38:24 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @123has been deleted from the ControlFile: view2.jpeg
+Dec 06, 2017 6:38:24 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @123has been deleted from the ControlFile: view3.jpeg
+Dec 06, 2017 6:38:38 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @UofThas been deleted from the ControlFile: adm.png
+Dec 06, 2017 6:38:55 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: adm.png
+Dec 06, 2017 6:39:00 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @123has been deleted from the ControlFile: adm.png
+Dec 06, 2017 6:39:11 PM controller.managers.FileManager addNewTag
+INFO: The Tag: @123 has been created
+Dec 06, 2017 6:39:33 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @Keyhas been deleted from the ControlFile: adm.png
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @Key has been added into the ControlFile: adm.png
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @Key has been added into the ControlFile: cashier.png
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @Key has been added into the ControlFile: house.png
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @Key has been added into the ControlFile: man.jpg
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @Key has been added into the ControlFile: myRoom1.jpg
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @Key has been added into the ControlFile: myRoom2.jpg
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @Key has been added into the ControlFile: view1.jpeg
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @Key has been added into the ControlFile: view2.jpeg
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @Key has been added into the ControlFile: view3.jpeg
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: adm.png
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: cashier.png
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: house.png
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: man.jpg
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: myRoom1.jpg
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: myRoom2.jpg
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: view1.jpeg
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: view2.jpeg
+Dec 06, 2017 6:39:42 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @123 has been added into the ControlFile: view3.jpeg
+Dec 06, 2017 6:39:53 PM controller.managers.FileManager addTagToFile
+INFO: The Tag: @Key has been added into the ControlFile: big_buck_bunny.mp4
+Dec 06, 2017 6:40:04 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @Keyhas been deleted from the ControlFile: adm.png
+Dec 06, 2017 6:40:04 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @Keyhas been deleted from the ControlFile: cashier.png
+Dec 06, 2017 6:40:04 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @Keyhas been deleted from the ControlFile: house.png
+Dec 06, 2017 6:40:04 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @Keyhas been deleted from the ControlFile: man.jpg
+Dec 06, 2017 6:40:04 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @Keyhas been deleted from the ControlFile: myRoom1.jpg
+Dec 06, 2017 6:40:04 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @Keyhas been deleted from the ControlFile: myRoom2.jpg
+Dec 06, 2017 6:40:04 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @Keyhas been deleted from the ControlFile: view1.jpeg
+Dec 06, 2017 6:40:04 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @Keyhas been deleted from the ControlFile: view2.jpeg
+Dec 06, 2017 6:40:04 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @Keyhas been deleted from the ControlFile: view3.jpeg
+Dec 06, 2017 6:40:04 PM controller.managers.FileManager deleteTagInFile
+INFO: The Tag: @Keyhas been deleted from the ControlFile: big_buck_bunny.mp4
+Dec 06, 2017 6:40:30 PM controller.managers.FileManager viewHistoryTag
+INFO: The user has viewed the Tags with: [@Key @UofT, @Key, @Key @123, @Key,  , @Key, @Key @123] for ControlFile: adm.png
+Dec 06, 2017 6:40:46 PM controller.managers.FileManager backHistory
+INFO: The ControlFile with controlFile name: adm.png has change to Tags: FROM @123 TO @Key @UofT
+Dec 06, 2017 6:43:41 PM controller.managers.FileManager viewHistoryTag
+INFO: The user has viewed the Tags with: [ , @123,  , @Key, @Key @123] for ControlFile: myRoom2.jpg
+Dec 06, 2017 6:43:43 PM controller.managers.FileManager backHistory
+INFO: The ControlFile with controlFile name: myRoom2.jpg has change to Tags: FROM @123 TO @Key @123
